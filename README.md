@@ -14,7 +14,7 @@ footer.
 
 2. Set Up HTML Structure : 
 Create an HTML file for your landing page.
-Define the basic structure including <header>, <nav>, <main>, and <footer> sections.
+Define the basic structure including header, main and footer sections.
 Within the <main> section, create containers for different content sections such as the 
 featured car, vehicle details, gallery, testimonials, and contact information.
 
