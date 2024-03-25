@@ -1,0 +1,116 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Arya:wght@400;700&family=Bentham&family=Elsie:wght@400;900&family=Manuale:ital,wght@0,300..800;1,300..800&family=Merriweather:ital,wght@1,300&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+
+
+:root{
+    --bs-font: "Newsreader", serif;
+    --bs-font2: "Newsreader", serif;
+    --bg-color: #1c232d;
+    --bg-green: #519B4C;
+    --bg-aqua:#50A08F;
+    --bs-brown:#9E7535;
+    --bs-yellow:#C0B714;
+    --main-color: #dd0707;
+    --bs-black:#000000;
+    --bs-white: #ffffff;
+    
+}
+.nik1:hover{
+    transition: all;
+    transition-duration: 1s;
+    color: rgb(233, 69, 69);
+}
+.da-color{
+    background: var(--bg-color);
+}
+.bg-green{
+    background: var(--bg-green);
+}
+.bg-aqua{
+    background: var(--bg-aqua);
+}
+.bg-brown{
+    background: var(--bs-brown);
+}
+.bg-yellow{
+    background: var(--bs-yellow);
+}
+.bg-black{
+    background: var(--bs-black);
+}
+#nav{
+    background-color: rgb(17, 17, 17);
+}
+.main-color{
+    color: var(--main-color);
+}
+.text-white{
+    color: var(--bs-color);
+}
+.font-pop{
+    font-family: var(--bs-font);
+}
+.font-sans{
+    font-family: var(--bs-font2);
+}
+#backimg1{
+    background:  linear-gradient(to bottom, rgba(248, 13, 13, 0.634), rgba(248, 13, 13, 0.634)), url('../images/bg-10.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+     
+}
+#heroo{
+    background:url(../images/bg-8-1.jpg)  no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+} 
+#n1{
+    margin: 110px 0px 0px 40px;
+}
+
+#assis{
+    background:  url("../images/accessories-bg.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.btns button{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    
+}
+.container-fluid .nav .active{
+    background: #dd0707 !important;
+}
+
+.engine .card img{
+    width: 30%;
+
+}
+.ride .container-fluid button:hover{
+    background:var(--main-color);
+    color: #ffffff;
+
+}
+.ride .container-fluid ::placeholder{
+    color: #ffffff;
+}
+
+
+
+@media only screen and (max-width:576px){
+
+    .nav_img{
+        width: 150px;
+    }
+
+    #n1{
+        margin: 70px 0px 0px 0px;
+    }
+
+}
+
